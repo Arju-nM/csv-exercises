@@ -41,7 +41,7 @@ get checkout -t origin/exercise-2
 
 * PhoneBook
 * ShoppingList
-* Calendar
 * DoctorsOffice
 * ReportCard
+* Calendar
 
