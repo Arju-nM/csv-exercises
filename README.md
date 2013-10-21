@@ -34,7 +34,7 @@ Check out the `exercise-2` branch:
 
 ```bash
 git fetch origin
-get checkout -t origin/exercise-2
+git checkout -t origin/exercise-2
 ```
 
 ### Suggested Order
