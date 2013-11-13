@@ -30,11 +30,11 @@ git add .
 git commit -m "Complete Exercise 1"
 ```
 
-Check out the `exercise-2` branch:
+Check out the `level-ii` branch:
 
 ```bash
 git fetch origin
-git checkout -t origin/exercise-2
+git checkout -t origin/level-ii
 ```
 
 ### Suggested Order
