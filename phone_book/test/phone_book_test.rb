@@ -21,15 +21,13 @@ class PhoneBookTest < Minitest::Test
   end
 
   def test_load_data
-    skip
     person = phone_book.entries.last
     assert_equal "Kaelyn", person.first_name
     assert_equal "Bartell", person.last_name
-    assert_equal "(581) 319-6099", person.phone_number
+    assert_equal "(581) 319-6099", person.number
   end
 
   def test_find_by_first_name
-    skip
     people = phone_book.find_by_first_name("Rickie")
     assert_equal 4, people.size
     last_names = people.map do |person|
@@ -39,7 +37,6 @@ class PhoneBookTest < Minitest::Test
   end
 
   def test_find_by_last_name
-    skip
     people = phone_book.find_by_last_name("Rice")
     assert_equal 6, people.size
     first_names = people.map do |person|
@@ -50,7 +47,6 @@ class PhoneBookTest < Minitest::Test
   end
 
   def test_find_by_score
-    skip
     people = phone_book.find_by_score(42)
     assert_equal 44, people.size
     first_names = people.map do |person|
@@ -61,7 +57,6 @@ class PhoneBookTest < Minitest::Test
 
   # It's like in golf, lower scores are better
   def test_find_n_people_with_lowest_scores
-    skip
     people = phone_book.n_lowest_scorers(2)
     names = people.map do |person|
       person.name
