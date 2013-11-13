@@ -66,7 +66,7 @@ class PhoneBookTest < Minitest::Test
     names = people.map do |person|
       person.name
     end
-    assert_equal ["Ara Olson", "Freeman Kilback"], names.sort
+    assert_equal ["Adeline Wolff", "Lorenzo Lowe"], names.sort
   end
 end
 
