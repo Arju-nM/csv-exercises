@@ -27,7 +27,7 @@ class PersonTest < Minitest::Test
     # This got complicated all of a sudden.
     # Go solve the phone_number_test.rb before coming back
     person = Person.new(phone_number: "123-555-2345")
-    assert_equal "(123) 555-2345", person.phone_number
+    assert_equal "(123) 555-2345", person.number
   end
 
   def test_sum_of_phone_number
