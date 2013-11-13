@@ -4,10 +4,16 @@ require 'minitest/pride'
 require_relative '../lib/phone_book'
 
 class PhoneBookTest < Minitest::Test
-  attr_reader :phone_book, :filename
-  def setup
-    @filename = File.absolute_path("../fixtures/people.csv", __FILE__)
+  def filename
+    @filename ||= File.absolute_path("../fixtures/people.csv", __FILE__)
+  end
+
+  def phone_book
     @phone_book = PhoneBook.new(filename)
+  end
+
+  def teardown
+    @phone_book = nil
   end
 
   def test_filename
