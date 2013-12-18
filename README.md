@@ -1,33 +1,14 @@
 # CSV Exercises
 
-## Round 1
+## Level I
 
-### Exercise 1: PhoneBook
+Simple exercises using a very small data set. Each exercise includes a CSV file, and the problem will be solved using two objects: One that represents a single _thing_, a single row of data, and a second object that manages the collection of those things.
 
-* CSV file with first_name, last_name, phone_number
-* Write full tutorial to work through it
+The [step-by-step tutorial](http://tutorials.jumpstartlab.com/academy/workshops/csv/i.html) walks you through the process.
 
-### Exercise 2: ShoppingList
+## Level II
 
-* CSV file with item_name, quantity
-* Create full test suite, stub out the production classes
+These exercises build on those in Level I. There is more data in the CSV file, and it adds more complex behavior to the system.
 
-### Exercise 3: ReportCard
-
-* CSV file with subject_name, grade
-* Write full test suite, do not provide production code
-
-### Exercise 4: DoctorsOffice
-
-* CSV file with partient_name, appointment_time
-* Stub out the test suite with a list of test names, do not provide production code
-
-### Exercise 5: Birthdays
-
-* CSV file with name, date_of_birth
-* Do not provide any test suite or production code
-
-## Round 2
-
-Add more data, more attributes, and do computation based on attributes (search, aggregate)
+The [tutorial](http://tutorials.jumpstartlab.com/academy/workshops/csv/ii.html) explains the execise and provides hints.
 
