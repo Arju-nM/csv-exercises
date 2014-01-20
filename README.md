@@ -12,3 +12,8 @@ These exercises build on those in Level I. There is more data in the CSV file, a
 
 The [tutorial](http://tutorials.jumpstartlab.com/academy/workshops/csv/ii.html) explains the execise and provides hints.
 
+## Level III
+
+Each of these exercises uses multiple CSV files containing related data.
+
+The [tutorial](http://tutorials.jumpstartlab.com/academy/workshops/csv/iii.html) explains the execise and provides hints.
