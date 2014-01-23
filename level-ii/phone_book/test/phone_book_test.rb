@@ -25,7 +25,7 @@ class PhoneBookTest < Minitest::Test
     person = phone_book.entries.last
     assert_equal "Kaelyn", person.first_name
     assert_equal "Bartell", person.last_name
-    assert_equal "(581) 319-6099", person.phone_number
+    assert_equal "(581) 319-6099", person.number
   end
 
   def test_find_by_first_name
